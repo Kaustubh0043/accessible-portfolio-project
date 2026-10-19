@@ -10,4 +10,4 @@ This repository contains my weekly frontend development tasks for the Thiranex i
 - [Week 4: Asynchronous JavaScript & RESTful APIs](Week-4-Async-JavaScript-REST-APIs/)
 - [Week 5: Full-Stack Deployment & Project Architecture](Week-5-Full-Stack-Deployment-Architecture/)
 
-Each week has its own folder. Weeks 2–5 currently contain task outlines; I’ll add each finished project to its matching folder.
+Week 1 contains the semantic portfolio foundation. Week 2 builds on it with responsive CSS Grid and Flexbox layouts and an automatic light/dark theme. Weeks 3–5 currently contain task outlines; I’ll add each finished project to its matching folder.
