@@ -1,19 +1,26 @@
 # Week 2: Advanced CSS3 & Responsive Architecture
 
-**Status:** Task outline — add your completed project files here.
+This is the Week 2 visual and responsive edition of the semantic portfolio from Week 1. It uses CSS Grid for page-level layouts, Flexbox for navigation and grouped controls, mobile-first breakpoints, reusable design tokens, and an automatic light/dark theme.
 
-## Task
+## View the site
 
-Transform the semantic portfolio from Week 1 into a visually polished, responsive website using modern CSS layout techniques.
+Open `index.html` in a browser. The page links work locally because all four HTML pages and `styles.css` are in this folder.
 
-## Requirements
+## What changed in Week 2
 
-- Use CSS Grid for complex, two-dimensional page layouts.
-- Use Flexbox for localized component alignment.
-- Use mobile-first responsive media queries.
-- Define custom CSS variables for a light/dark theme.
-- Make the design adapt to phone, tablet, and desktop screen sizes.
+- The home-about and project areas use CSS Grid for two-dimensional layouts.
+- Navigation, action links, cards, and the footer use Flexbox for alignment and wrapping.
+- The stylesheet starts with a single-column, small-screen layout, then adds tablet and desktop layouts at `42rem` and `68rem`.
+- Color, spacing, typography, borders, and shadows are CSS custom properties in `:root`.
+- The `prefers-color-scheme: dark` media query overrides the same color tokens, so the site automatically follows the visitor’s system theme without JavaScript.
+- A reduced-motion query respects visitors who ask their device to reduce animation.
 
-## Suggested files
+## Learn by changing it
 
-Add your updated HTML and CSS files here. Keep the project entry page named `index.html` and include a short README explaining the design choices and how to view the site.
+1. Change a color token near the top of `styles.css` and watch the shared site colors update.
+2. Switch your operating system or browser appearance between light and dark to see the palette change.
+3. Narrow and widen the browser window to see the tablet and desktop grid breakpoints.
+4. Try keyboard navigation and confirm that focus remains visible in both color themes.
+
+This folder is the Week 2 iteration; Week 1 remains available in its own folder in the repository.
+
