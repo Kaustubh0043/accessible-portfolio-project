@@ -13,7 +13,8 @@ Open `index.html` in a browser. All four pages, `styles.css`, and the theme swit
 - The stylesheet starts with a single-column, small-screen layout, then adds tablet and desktop layouts at `44rem` and `68rem`.
 - Color, spacing, typography, borders, and shadows are CSS custom properties in `:root`.
 - The accessible theme button starts with the visitor’s system preference and remembers a manual light/dark selection in the browser.
-- The homepage features project links; the About page includes a skills list and internship experience.
+- The homepage and Projects page include source or live-site links for VertexPath, Lake N Trails, College Discovery, MindEase, and the portfolio website where available.
+- The About page includes grouped technical skills and the experience entries from Kaustubh’s resume; phone and email links appear on Contact and in the footer.
 - A small JavaScript file powers the theme button. CSS variables provide the light and dark palettes.
 - A reduced-motion query respects visitors who ask their device to reduce animation.
 
